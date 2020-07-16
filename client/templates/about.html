@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <script src="/static/js/jquery.min.js" type="text/javascript"></script>
+    <script  charset="UTF-8">
+      var url = document.location.toString();
+      var arrUrl = url.split("//");
+      //当前访问的人
+      var da_username = arrUrl[1].split('/')[1];
+      var html_body = '';
+      token = window.localStorage.getItem('dstore_token');
+      //登陆的用户名
+      username = window.localStorage.getItem('dstore_user');
+      console.log(username);
+
+      $.ajax({
+         // 请求方式
+         type:"get",
+         // url
+         url:"http://127.0.0.1:8000/v1/users/"+ username,
+         beforeSend: function(request) {
+             request.setRequestHeader("Authorization", token);
+         },
+         success:function (result) {
+             if (200 == result.code){
+                 $(document).attr('title', '关于'+ result.username+'的个人信息');
+                 //header_html = makeHeader(username);
+                 //html_body += header_html;
+                 html_body += '<h1><span>个人简介</span>';
+                 html_body += '</h1>';
+                 if(result.data.info){
+                    html_body += result.data.info;
+                 }else{
+                    html_body += '空空如也';
+                 }
+                 if (result.data.avatar) {
+                     var avatar_url = 'http://127.0.0.1:8000/media/'+ result.data.avatar;
+                     html_body += '<p class="avatar"> <img src=' + avatar_url + ' alt=""> </p>';
+                 }else{
+                     html_body += '<p class="avatar"> <img src="/static/images/avatar.jpg" alt=""> </p>';
+                 }
+
+         }
+         }
+        });
+    </script>
+</head>
+<body>
+
+
+
+</body>
+</html>

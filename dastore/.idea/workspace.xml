@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f54a4bb-e0e6-4f85-b598-aa298f685b47" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1edHuN5zA69iSYMNwTTu26ZM7mP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client/static/js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../client/static/js" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f54a4bb-e0e6-4f85-b598-aa298f685b47" name="Default Changelist" comment="" />
+      <created>1594644771588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594644771588</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="165" width="315" height="299" key="FileChooserDialogImpl" timestamp="1594813043756">
+      <screen x="67" y="27" width="733" height="577" />
+    </state>
+    <state x="776" y="249" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.930@67.27.1853.930" timestamp="1594644916754" />
+    <state x="347" y="164" width="315" height="299" key="FileChooserDialogImpl/67.27.733.573@67.27.733.573" timestamp="1594774841779" />
+    <state x="347" y="165" key="FileChooserDialogImpl/67.27.733.577@67.27.733.577" timestamp="1594813043756" />
+    <state x="398" y="178" width="315" height="329" key="FileChooserDialogImpl/67.27.865.632@67.27.865.632" timestamp="1594727684439" />
+  </component>
+</project>
